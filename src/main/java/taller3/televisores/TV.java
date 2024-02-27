@@ -25,7 +25,7 @@ public class TV {
 
     public static int setNumTV(int numTV){
         TV.numTV = numTV;
-        
+        return TV.numTV
     }
 
     public void turnOn(){

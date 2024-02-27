@@ -8,7 +8,7 @@ public class Control {
         tv.setControl(this);
     }
 
-    public void turnOn() {
+    public void turnOn(){
         this.tv.turnOn();
     }
 
@@ -36,8 +36,8 @@ public class Control {
         this.tv.setVolumen(volumen);
     }
 
-    public void setcanal(int canal){
-        this.tv.setcanal(canal);
+    public void setcanal(int canal) {
+        this.tv.setCanal(canal);
     }
 
     public TV getTv(){
