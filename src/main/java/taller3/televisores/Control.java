@@ -16,10 +16,30 @@ public class Control {
         this.tv.turnOff();
     }
 
+    public void canalUp(){
+        this.tv.canalUp();
+    }
+
+    public void canalDown(){
+        this.tv.canalDown();
+    }
+
+    public void volumenUp(){
+        this.tv.volumenUp();
+    }
+
+    public void volumenDown(){
+        this.tv.volumenDown();
+    }
+
     public void setVolumen(int volumen){
         this.tv.setVolumen(volumen);
     }
 
+    public void setcanal(int canal){
+        this.tv.setcanal(canal);
+    }
+    
     public void getTV(){
         return this.tv;
     }
