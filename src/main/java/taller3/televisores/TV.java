@@ -16,7 +16,7 @@ public class TV {
         this.volumen = 1;
         this.precio = 500;
 
-        tv.numTV++;
+        TV.numTV++;
     }
     
     public static int getNumTV(){

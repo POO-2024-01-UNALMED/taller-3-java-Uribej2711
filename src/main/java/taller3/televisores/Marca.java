@@ -1,9 +1,9 @@
 package taller3.televisores;
 
 public class Marca {
-    private string nombre;
+    private String nombre;
 
-    public  Marca(string nombre) {
+    public  Marca(String nombre) {
         this.setNombre(nombre);
     }
 
