@@ -37,11 +37,11 @@ public class TV {
     }
 
     public void canalUp(){
-        this.setcanal(this.canal + 1);
+        this.setCanal(this.canal + 1);
     }
 
     public void canalDown(){
-        this.setcanal(this.canal - 1);
+        this.setCanal(this.canal - 1);
     }
 
     public void volumenUp(){
