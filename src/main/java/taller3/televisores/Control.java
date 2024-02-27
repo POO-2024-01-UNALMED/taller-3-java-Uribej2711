@@ -13,7 +13,7 @@ public class Control {
     }
 
     public void turnOff(){
-        this.tv.turnOff(;)
+        this.tv.turnOff();
     }
 
     public void setVolumen(int volumen){

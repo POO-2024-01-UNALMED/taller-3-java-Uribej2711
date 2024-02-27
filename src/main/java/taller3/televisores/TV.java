@@ -1,4 +1,4 @@
-package taller3.televisores:
+package taller3.televisores;
 
 public class TV {
     private Marca marca;
@@ -7,11 +7,11 @@ public class TV {
     private boolean estado;
     private int volumen;
     private Control control;
-    private static int numTV = 0
+    private static int numTV = 0;
     
     public TV(marca marca, boolean estado){
         this.marca = marca;
-        this.estado = estado
+        this.estado = estado;
         this.canal = canal = 1;
         this.volumen = 1;
         this.precio = 500;
@@ -37,11 +37,11 @@ public class TV {
     }
 
     public void canalDown(){
-        this.setcanal(this.canal - 1)
+        this.setcanal(this.canal - 1);
     }
 
     public void volumenUp(){
-        this.setVolumen(this.volumen - 1)
+        this.setVolumen(this.volumen - 1);
     }
 
     public Marca getMarca() {
@@ -58,10 +58,12 @@ public class TV {
 
     public int getVolumen(){
         return this.volumen;
+        
     }
 
     public Control getControl(){
         return this.control;
+
     }
     
     public void getEstado(){
@@ -69,20 +71,25 @@ public class TV {
     }
 
     public void setMarca(Marca marca){
-        this.marca = marca
+        this.marca = marca;
     }
 
     public void setCanal(int canal){
         if (this.estado && canal >= 1 && canal <= 120)
-    }       this.canal = canal;
-    
+          this.canal = canal;
+
+    }
+
     public void setPrecio(int precio){
         this.precio = precio;
+
     }
 
     public void setVolumen(int volumen){
         if (this.estado && volumen >= 0 && volumen <= 7)
+
     }
+
 
     public void setControl (Control control){
         this.control = control;
