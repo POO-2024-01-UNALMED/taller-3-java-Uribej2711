@@ -58,7 +58,7 @@ public class TV {
 
     public int getVolumen(){
         return this.volumen;
-        
+
     }
 
     public Control getControl(){
