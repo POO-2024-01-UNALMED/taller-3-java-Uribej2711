@@ -36,7 +36,7 @@ public class Control {
         this.tv.setVolumen(volumen);
     }
 
-    public void setcanal(int canal) {
+    public void setCanal(int canal) {
         this.tv.setCanal(canal);
     }
 
