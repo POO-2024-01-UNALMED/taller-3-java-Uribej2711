@@ -28,7 +28,7 @@ public class TV {
         
     }
 
-    public void turnON(){
+    public void turnOn(){
         this.estado = true;
     }
     
@@ -74,7 +74,7 @@ public class TV {
 
     }
     
-    public void getEstado(){
+    public boolean getEstado(){
         return this.estado;
     }
 
